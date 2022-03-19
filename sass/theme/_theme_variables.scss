@@ -3,4 +3,47 @@
 // Just copy a variable from src/sass/bootstrap4/_variables.scss, paste it here and edit the value.
 
 
-$primary: #5533ff; // Thats a sample how you could change a BootStrap variable.
+$primary: #1C3C70; // Thats a sample how you could change a BootStrap variable.
+$secondary: #FE8836;
+$light-blue: #0097DD;
+
+// $container-max-widths: (
+//   sm: 767px,
+//   md: 991px,
+//   lg: 1140px,
+//   xl: 1490px
+// ) !default;
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1300px,
+  xxxl: 1600px,
+  xxxxl: 1601px
+);
+$container-max-widths: ( 
+  sm: 540px,
+  md: 720px,
+  lg: 950px,
+  xl: 1140px,
+  xxl: 1280px,
+  xxxl: 1490px,
+  xxxxl: 1600px
+);
+
+// @mixin make-max-widths-container-width($max-widths: $container-max-widths, $breakpoints: $grid-breakpoints) {
+//   @each $breakpoint, $container-max-width in $max-widths {
+//     @include media-breakpoint-up($breakpoint, $breakpoints) {
+//         max-width: $container-max-width;
+//     }
+//   }
+// }
+// .container{
+//    @include make-max-widths-container-width();
+// }
+
+
+$fa-font-path:         "../src/sass/fontawesome/webfonts";

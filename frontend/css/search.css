@@ -1,0 +1,521 @@
+
+.search-filter-options .searchsettings {
+    display: block !important;
+    visibility: visible !important;
+}
+.search-filter {
+    font-family: Mulish,sans-serif;
+    color: #fff;
+    background: #1C3C70;
+}
+.search-filter-header {
+    background: #005EAB;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 12px 22px;
+}
+
+.search-filter-header:after {
+    content: '';
+    display: inline-block;
+    height: 18px;
+    width: 14px;
+    background: url("../../img/search-filter-arrow.svg") center center no-repeat;
+    float: right;
+}
+.search-filter-header.open:after {
+    -webkit-transform: rotateX(180deg);
+    transform: rotateX(180deg);
+}
+.search-filter-options {
+    display: none;
+    padding: 9px 23px 20px;
+}
+
+.search-filter-options .category_filter_box {
+    overflow: visible !important;
+    max-height: none !important;
+}
+.searchsettings  {
+    max-width: none !important;
+    width: 100% !important;
+    position: relative !important;
+    opacity: 1 !important;
+    background: transparent !important;
+    box-shadow: none !important;
+}
+.searchsettings fieldset {
+    width: 100% !important;
+    max-width: 100% !important;
+}
+.asp_option_inner {
+    margin: 16px 0px 0 0px !important;
+    order: 2
+}
+div.ajaxsearchpro.searchsettings .asp_sett_scroll>.asp_option_cat:first-child>div.asp_option_inner {
+    margin: 16px 0px 0 0px !important;
+}
+
+
+.searchsettings .asp_option {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4) !important;
+    margin-bottom: 0 !important;
+}
+.searchsettings .asp_option_label {
+    width: 100% !important;
+    text-transform: uppercase !important;
+    font-weight: 900 !important;
+    padding: 14px 0 !important;
+    color: #fff !important;
+    font-size: 14px !important;
+}
+.searchsettings .asp_option_inner{
+    height: 15px !important;
+    width: 15px !important;
+    background: transparent !important;
+}
+.searchsettings .asp_option_inner label{
+    height: 15px !important;
+    width: 15px !important;
+    background: #fff !important;
+    border-radius: 0 !important;
+
+}
+.searchsettings .asp_option_inner label:after {
+    background: url("../../img/search-filter-check.svg") center center no-repeat !important;
+    content: '' !important;
+}
+
+.searchsettings fieldset.asp_filter_generic > legend {
+    width: 100% !important;
+    font-size: 14px !important;
+    font-style: normal;
+    font-weight: 900 !important;
+    line-height: 18px !important;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FE8836 !important;
+    padding: 0 !important;
+    text-transform: uppercase !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4) !important;
+    padding: 0 0 11px 0 !important;
+    margin-bottom: 15px !important;
+}
+
+.searchsettings fieldset.asp_filter_tax.asp_filter_tax_category.asp_checkboxes_filter_box{
+    margin-top: 42px !important;
+}
+.searchsettings .asp_filter_tax legend{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4) !important;
+    color: #FE8836;
+    padding: 0 0 6px 0 !important;
+}
+
+.filter_toogle_all_generic {
+    display: none;
+}
+.filter_toogle_all_generic + label{
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    background: #FE8836 !important;
+    float: right;
+}
+.filter_toogle_all_generic:checked + label:after{
+    content: '';
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    background: url("../../img/search-filter-check.svg") center center no-repeat !important;
+    content: '' !important;
+}
+
+.prosettings, .innericon, .proloading, .promagnifier {
+    display: none !important;
+}
+.ajaxsearchpro, #ajaxsearchprores2_1 {
+    font-family: Mulish,sans-serif !important;
+}
+.ajaxsearchpro input[type="search"]::placeholder
+{
+    font-family: Mulish,sans-serif !important;
+    font-size: 14px !important;
+    opacity: 1 !important;
+    color: #1C3C70 !important;
+}
+.ajaxsearchpro input[type="search"]::-webkit-input-placeholder
+{
+    font-family: Mulish,sans-serif !important;
+    font-size: 14px !important;
+    opacity: 1 !important;
+    color: #1C3C70 !important;
+}
+.ajaxsearchpro input[type="search"]:-ms-input-placeholder
+{
+    font-family: Mulish,sans-serif !important;
+    font-size: 14px !important;
+    opacity: 1 !important;
+    color: #1C3C70 !important;
+}
+.ajaxsearchpro input[type="search"]::-ms-input-placeholder
+{
+    font-family: Mulish,sans-serif !important;
+    font-size: 14px !important;
+    opacity: 1 !important;
+    color: #1C3C70 !important;
+}
+.ajaxsearchpro .proinput {
+    margin: 0 !important;
+    padding: 0 65px !important;
+    background: url("../../img/search-zoom.svg") 30px center no-repeat !important;
+}
+#ajaxsearchpro2_1.ajaxsearchpro .probox .proinput input[type="search"].orig,
+#ajaxsearchpro1_1.ajaxsearchpro .probox .proinput input[type="search"].orig{
+    font-family: Mulish,sans-serif !important;
+    text-transform: uppercase !important;
+    font-style: normal;
+    font-weight: bold !important;
+    font-size: 14px !important;
+    line-height: 18px !important;
+    color: #1C3C70 !important;
+    padding-top: 2px !important;
+}
+.ajaxsearchpro .proclose svg{
+    display: none;
+}
+.ajaxsearchpro .proclose{
+    background: url("../../img/search-close.svg") center center no-repeat !important;
+}
+.asp_keyword {
+    display: none;
+}
+.asp_nores_header span {
+    display: block;
+    text-align: center !important;
+}
+.asp_nores_header .btn-show {
+    display: inline-block !important;
+    margin-top: 38px !important;
+    font-family: Roboto,sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+    color: #1c3c70;
+    border: 1px solid #1c3c70 !important;
+    text-align: center;
+    display: inline-block;
+    padding: 11px 34px !important;
+    text-transform: uppercase !important;
+}
+.asp_nores_header .btn-show:hover {
+    background: #1c3c70;
+    color: #fff;
+}
+.asp_r .asp_nores {
+    background: url("../../img/search-zoom.svg") center 240px no-repeat !important;
+    background-size: 45px !important;
+    padding: 323px 0 238px !important;
+}
+.asp_r .asp_nores_header {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 139%;
+    text-align: center !important;
+    text-transform: uppercase !important;
+    color: #1C3C70;
+}
+.ajaxsearchpro {
+    padding: 0 !important;
+}
+#ajaxsearchprores1_1 .ajaxsearchpro {
+    box-shadow: 0px -2px 25px rgba(109, 109, 109, 0.15), 0px -0.901321px 6.60743px rgba(0, 0, 0, 0.0352419), 0px -0.602575px 3.92863px rgba(0, 0, 0, 0.0209473) !important;
+}
+#ajaxsearchprores1_1 .results{
+    border-bottom: 5px solid #005EAB !important;
+}
+.ajaxsearchpro .results .item {
+    padding: 0px 38px 0 27px !important;
+    background: #fff !important;
+    border: 0 !important;
+}
+.ajaxsearchpro .results .item .asp_content {
+    padding: 24px 0px !important;
+    border-bottom: 1px solid rgba(0, 94, 171, 0.33);
+    display: flex;
+    align-items: center;
+}
+.ajaxsearchpro .results .item .asp_content .asp_image {
+    margin: 0px !important;
+    width: 68px !important;
+    height: 68px !important;
+}
+.ajaxsearchpro .results .item .asp_content .asp_res_image_url {
+    margin-right: 42px !important;
+    flex-shrink: 0;
+}
+.ajaxsearchpro .results .item .asp_content h3 {
+    flex-grow: 2;
+    flex-basis: 0;
+}
+.ajaxsearchpro .results .item .asp_content .etc {
+    flex-grow: 1;
+    flex-basis: 0;
+    margin-bottom: 0;
+}
+.ajaxsearchpro .results .item .asp_content .etc .asp_categories{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: right;
+    color: #FE8836;
+    display: block;
+    font-family: Mulish,sans-serif !important;
+}
+.ajaxsearchpro .results .item .asp_content .asp_res_url {
+    font-weight: 800 !important;
+    font-size: 20px !important;
+    line-height: 113.5% !important;
+    align-items: center !important;
+    text-transform: uppercase !important;
+    color: #1C3C70 !important;
+    height: 100%;
+    font-family: Mulish,sans-serif !important;
+}
+.ajaxsearchpro .results .item .asp_content .asp_res_url .highlighted{
+    text-transform: uppercase !important;
+}
+
+.asp_simplebar-scrollbar {
+    background: #005EAB !important;
+}
+.asp_simplebar-scrollbar::before {
+    background: transparent !important;
+}
+
+.header__nav-item-search {
+    margin: 0;
+}
+.header__cover.container .header__nav-link-search {
+    width: 64px;
+}
+
+.header__cover.cover .header__nav-link-search {
+    width: 47px;
+}
+.header__nav-link-search {
+    height: 89px;
+    position: relative;
+    top: 2px;
+}
+.main-header_float .header__nav-link-search {
+    height: 55px;
+    top: 0px;
+}
+.header__nav-link-search svg{
+    display: block;
+    margin: 13px auto;
+}
+.main-header_float .header__nav-link-search svg{
+    margin: 2px auto;
+}
+.header__nav-link-search.active{
+    background-color: #005EAB;
+}
+.header__nav-link-search.active svg path {
+    fill: #fff;
+}
+
+.header__nav-link-search:before {
+    opacity: 0 !important;
+}
+#ajaxsearchprores2_1 {
+    box-shadow: none !important;
+}
+#ajaxsearchprores2_1.asp_an_fadeInDrop {
+    display: flex !important;
+}
+#ajaxsearchprores2_1 .results {
+    flex-grow: 7;
+    flex-basis: 0;
+}
+
+#ajaxsearchprores2_1 .searchsettings {
+    display: block!important;
+    visibility: visible !important;
+    padding: 9px 23px 20px !important;
+    box-sizing: border-box;
+    color: #fff;
+    flex-grow: 2;
+    flex-basis: 0;
+    background: #1C3C70 !important;
+}
+
+#ajaxsearchpro2_1 {
+    box-shadow: none !important;
+}
+
+#search-overlay {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,.65);
+    z-index: 999;
+}
+.main-search .search-filter-options,
+.insights-filters .search-filter-options {
+    position: absolute;
+    z-index: 99999;
+    background: rgb(28, 60, 112) !important;
+}
+.insights-filters .search-filter-options{
+    width: calc(100% - 30px);
+}
+.main-search .search-filter-options {
+    width: 100%;
+}
+
+.header__search-icon {
+    width: 30px;
+    height: 20px;
+    position: relative;
+    cursor: pointer;
+    background: url("../../img/search-zoom.svg") center center no-repeat !important;
+}
+
+div.asp_m.ajaxsearchpro .probox {
+    border: none !important;
+}
+div.asp_r span.highlighted {
+    font-weight: inherit !important;
+    color: inherit !important;
+    background-color: inherit !important;
+}
+
+@media (min-width:1280px) {
+    .header__search {
+        display: none;
+    }
+
+    .main-search {
+        background: #005EAB;
+        padding: 15px 0;
+    }
+
+    .main-search .search-filter{
+        display: none;
+    }
+
+    #ajaxsearchprores2_1 .results {
+        margin-right: 30px;
+    }
+}
+
+@media (max-width:1279px) {
+    .main-search .cover,
+    .main-search .container {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+    #ajaxsearchprores2_1 .searchsettings {
+        display: none !important;
+    }
+
+    #ajaxsearchprores1_1, #ajaxsearchprores2_1 {
+        margin-top: 42px !important;
+    }
+
+    .search-filter-header:after {
+        zoom: 1.4;
+        position: relative;
+        top: -2px;
+        letter-spacing: 1.1px;
+    }
+    #ajaxsearchprores2_1 {
+        position: absolute !important;
+        z-index: 999 !important;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .insights-filters {
+        margin: 30px 0 15px;
+    }
+    .insights-filters .container-md {
+        padding: 0;
+    }
+    .asp_m {
+        border-left: 0 !important;
+        border-right: 0 !important;
+    }
+    .ajaxsearchpro .proinput {
+        padding: 0 53px !important;
+        background-position: 22px center !important;
+    }
+    .search-filter-header {
+        font-size: 16px;
+        padding: 15px 21px;
+    }
+    .ajaxsearchpro .results .item .asp_content {
+        display: block;
+        padding: 34px 0 !important;
+    }
+    .ajaxsearchpro .results .item {
+        padding: 0 20px !important;
+    }
+    .ajaxsearchpro .results .item .asp_content .asp_image {
+        margin-right: 24px !important;
+    }
+    .ajaxsearchpro .results .item .asp_content .asp_res_image_url {
+        margin: 0 !important;
+    }
+    .ajaxsearchpro .results .item .asp_content .asp_res_url {
+        font-size: 16px !important;
+    }
+    .ajaxsearchpro .results .item .asp_content .etc .asp_categories {
+        text-align: left;
+        font-size: 14px;
+        line-height: 18px;
+        margin-top: 5px;
+    }
+    #ajaxsearchprores1_1, #ajaxsearchprores2_1 {
+        margin-top: 48px !important;
+    }
+    .proclose {
+        margin-right: 9px !important;
+    }
+    .asp_r .asp_nores {
+        background-position: center 120px !important;
+        background-size: 38px !important;
+        padding: 188px 0 132px !important;
+    }
+    .asp_r .asp_nores_header{
+        font-weight: 600;
+        font-size: 23px;
+        line-height: 139%;
+        margin: 0px 40px;
+        text-align: center !important;
+    }
+}
+.asp_simplebar-track.asp_simplebar-vertical {
+    width: 7px !important;
+    background: #E3E3E3;
+}
+
+.asp_simplebar-scrollbar {
+    right: 0px !important;
+}

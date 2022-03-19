@@ -1,1 +1,44 @@
-// This is an empty scss file for your custom styles - Please add your super duper awesome mega design styles here
+// Infuse Theme
+.site {
+    position: relative;
+}
+#wrapper-footer {
+    overflow: hidden;
+}
+html, body, #page {
+    height: 100%;
+    @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+        //IE11
+        height: auto;
+    }
+
+}
+#page {
+  display: flex;
+  flex-direction: column;
+}
+#page-wrapper {
+    flex: 1 0 auto;
+}
+#wrapper-footer {
+    flex-shrink: 0;
+}
+#content {
+    outline: 0;
+}
+a {
+    color: #0097DD;
+    &:hover {
+        color: #0097DD;
+        text-decoration: underline;
+    }
+}
+.btn-secondary {
+    font-family: "Roboto", Arial, sans-serif;
+    color: #fff;
+    font-size: 15px;
+    line-height: 24px;
+    text-transform: uppercase;
+    border-radius: 0;
+    padding: 11px 35px;
+}

@@ -1,0 +1,89 @@
+#error-404-wrapper {
+    .intro-section {
+        background: url('/wp-content/themes/infusemedia/img/404-bg.png') no-repeat;
+        background-size: cover;
+        padding-top: 100px;
+        padding-bottom: 170px;
+        text-align: center;
+        @include media-breakpoint-down(sm) {
+            padding-top: 30px;
+            padding-bottom: 80px;
+        }
+        .page-title {
+            font-weight: 800;
+            font-size: 400px;
+            line-height: 386px;
+            color: #FFFFFF;
+            @include media-breakpoint-down(lg) {
+                font-size: 300px;
+                line-height: 286px;
+            }
+            @include media-breakpoint-down(md) {
+                font-size: 200px;
+                line-height: 186px;
+            }
+            @include media-breakpoint-down(sm) {
+                font-size: 130px;
+                line-height: 165px;
+            }
+        }
+        .page-content p {
+            font-weight: bold;
+            font-size: 50px;
+            line-height: 96.5%;
+            color: #FFFFFF;
+            margin-bottom: 55px;
+        }
+        @include media-breakpoint-down(md) {
+            font-size: 30px;
+        }
+    }
+    .insights-section {
+        padding-top: 65px;
+        padding-bottom: 65px;
+        .insights-title {
+            font-weight: normal;
+            font-size: 64px;
+            line-height: 80px;
+            text-align: center;
+            color: #104474;
+            margin-bottom: 20px;
+            @include media-breakpoint-down(sm) {
+                font-size: 48px;
+                line-height: 48px;
+            }
+        }
+        .description {
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 30px;
+            text-align: center;
+            color: #333333;
+            @include media-breakpoint-down(sm) {
+                font-size: 16px;
+                line-height: 22px;
+            }
+        }
+        .insights-link {
+            font-size: 15px;
+            line-height: 23px;
+            font-family: Roboto, sans-serif;
+            color: #1c3c70;
+            letter-spacing: 0.02em;
+            text-transform: uppercase;
+            text-align: center;
+            display: block;
+            margin-top: 32px;
+            margin-bottom: 32px;
+            &:after {
+                display: inline-block;
+                content: '\f178';
+                font-size: 19px;
+                padding-left: 10px;
+                font-family: "Font Awesome 5 Pro";
+                font-weight: lighter;
+                vertical-align: bottom;
+            }
+        }
+    }
+}

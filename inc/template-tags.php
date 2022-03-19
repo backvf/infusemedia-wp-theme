@@ -75,7 +75,7 @@ if ( ! function_exists( 'understrap_entry_footer' ) ) {
 		}
 		edit_post_link(
 			sprintf(
-				/* translators: %s: Name of current post */
+			/* translators: %s: Name of current post */
 				esc_html__( 'Edit %s', 'understrap' ),
 				the_title( '<span class="sr-only">"', '"</span>', false )
 			),
@@ -156,5 +156,57 @@ if ( ! function_exists( 'understrap_body_attributes' ) ) {
 			}
 		}
 		echo trim( $attributes ); // phpcs:ignore WordPress.Security.EscapeOutput
+	}
+}
+
+
+function post_class_by_number() {
+	if ( is_special_article_in_list() ) {
+		echo "col-md-6 col-lg-6 insight-post-double";
+	} else {
+		echo "col-md-6 col-xl-3";
+	}
+}
+
+function maybe_background_style() {
+	if ( has_post_thumbnail() ) {
+		echo sprintf( "background-image:url('%s');",
+			get_the_post_thumbnail_url()
+		);
+	}
+}
+function has_background_class(){
+	if ( has_post_thumbnail() ) {
+		echo 'has-bg';
+	}
+}
+
+function is_special_article_in_list() {
+	global $insightIsDoubleWidth;
+	return $insightIsDoubleWidth;
+}
+
+function postCatsSlug() {
+	$categories = get_the_category();
+	$cls        = '';
+
+	if ( ! empty( $categories ) ) {
+		foreach ( $categories as $cat ) {
+			$cls .= $cat->slug . ' ';
+		}
+	}
+
+	echo $cls;
+}
+
+
+function postCategoryNames() {
+	foreach ( ( get_the_category() ) as $category ) {
+		if(get_field('infuse_include_in_meta_display', $category)) {
+			$catNames[] = $category->cat_name;
+		}
+	}
+	if($catNames){
+		echo implode(' ', $catNames);
 	}
 }

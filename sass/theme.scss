@@ -4,9 +4,31 @@
 @import "understrap/woocommerce"; // <-------- Loads WooCommerce style fixes. Comment out if you aren't using WooCommerce
 
 // Optional files - If you dont use the corresponding scripts/fonts comment em out
-@import "assets/font-awesome";    // <-------- Font Awesome Icon font
+// @import "assets/font-awesome";    // <-------- Font Awesome Icon font
+@import "../src/sass/fontawesome/scss/fontawesome.scss";    // <-------- Font Awesome Icon font
+@import "../src/sass/fontawesome/scss/regular.scss";    // <-------- Font Awesome Icon font
+@import "../src/sass/fontawesome/scss/light.scss";    // <-------- Font Awesome Icon font
+@import "../src/sass/fontawesome/scss/solid.scss";    // <-------- Font Awesome Icon font
+@import "../src/sass/fontawesome/scss/brands.scss";    // <-------- Font Awesome Icon font
 @import "assets/underscores";     // <-------- Underscores media styles
+@import "assets/slick-theme.scss";    // <-------- Slick theme style
+@import "assets/slick.scss";    // <-------- Slick style
 
 // Any additional imported files //
-@import "theme/theme";            // <-------- That's where you can add your own design. Thats your part!
-@import "theme/contact-form7";    // <-------- Contact Form 7 - Bootstrap 4 support
+@import "theme/theme";                  // <-------- That's where you can add your own design. Thats your part!
+@import "theme/contact-form7";          // <-------- Contact Form 7 - Bootstrap 4 support
+@import "theme/header";                 // <-------- Main Header Of the website 
+@import "theme/testimonials";           // <-------- Testimonials section of the website 
+@import "theme/what-we-do-section";     
+@import "theme/what_we-do-page";        // <-------- Style for What we do page
+@import "theme/footer";
+@import "theme/video-section";
+@import "theme/clients";
+@import "theme/insights";               // <-------- Insights page 
+@import "theme/insights-articles";               // <-------- Insights Articles 
+@import "theme/who-we-serve-page";               // <-------- Who we serve page page 
+@import "theme/child-pages-list";               // <-------- Child pages section 
+@import "theme/404";               // <-------- 404 page 
+@import "theme/contact";               // <-------- Contact page 
+@import "theme/leadership";               // <-------- Leadership page 
+@import "theme/privacy-pages"

@@ -1,0 +1,172 @@
+.vc_row.vc_row-no-padding {
+    .column-fix-pad {
+        position: relative;
+        &:after {
+            content: url('../img/infuse-stripes-tranparent.png');
+            display: block;
+            position: absolute;
+            top: 60px;
+            right: -260px;
+            @media (min-width: 1199.98px) and (max-width: 1440px) {     
+                top: 10px;
+            }
+            @include media-breakpoint-down(lg) {
+                content: none;
+            }
+            @include media-breakpoint-down(sm) {
+                display: none;
+                top: 20px;
+                right: -120px;
+            }
+        }
+        .vc_column-inner {
+            @include media-breakpoint-down(sm) {
+                padding-left: 15px;
+            }
+        }
+    }
+}
+#infusemedia-modal-video {
+    .modal-dialog {
+        max-width: 800px;
+    }
+    .modal-header {
+        border: 0;
+    }
+    video {
+        @include media-breakpoint-up(md) {
+            height: 575px;
+        }
+    }
+}
+.video-section {
+    background: linear-gradient(90.33deg, #114170 34.93%, #007ABF 98.37%);
+  
+    .video-description {
+      h2 {
+        font-weight: 200;
+        color: #FFFFFF;
+        margin-bottom: 50px;
+        @include media-breakpoint-up(xxl) {
+            font-size: 64px;
+            line-height: 110.5%;
+        }
+        @include media-breakpoint-down(xxl) {
+            font-size: 2.7rem;
+            line-height: 2.7rem;
+        }
+        @include media-breakpoint-down(md) {
+            padding-top: 30px;
+            font-size: 24px;
+            line-height: 29px;
+        }
+        @include media-breakpoint-down(sm) {
+            margin-bottom: 30px;
+        }
+      }
+  
+      p {
+        font-weight: 600;
+        color: #FFFFFF;
+        margin-bottom: 25px;
+        padding-right: 170px;
+        @media screen and (min-width: 1600px) {
+            font-size: 18px;
+            line-height: 26px;
+        }
+        @include media-breakpoint-down(sm) {
+            font-size: 16px;
+            line-height: 26px;
+            padding-right: 0;
+        }
+      }
+    }
+  }
+  
+.wrapper-play-custom {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+
+    .wrapper-text-play-wrapper {
+        font-size: 15px;
+        line-height: 23px;
+        letter-spacing: 0.02em;
+        text-transform: uppercase;
+        color: #FE8836;
+        padding-right: 12px;
+    }
+
+    .wrapper-icon-play-wrapper {
+        flex-grow: 1;
+
+        icon {
+            display: inline-block;
+            position: relative;
+            color: #FE8836;
+            width: 100%;
+            font-size: 40px;
+            &:after {
+                content: '';
+                height: 1px;
+                width: 100%;
+                background-color: #FE8836;
+                position: absolute;
+                top: 50%;
+            }
+        }
+    }
+    @include media-breakpoint-down(md) {
+        padding-bottom: 30px;
+    }
+    &:hover {
+        cursor: pointer;
+    }
+}
+.video-modal-image-trigger {
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.video-modal-image-trigger {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @media all and (-ms-high-contrast:none) {
+        position: relative;
+    }
+    img {
+        width: 100%;
+    }
+    &:after {
+        font-family: 'Font Awesome 5 Pro';
+        content: '\f04b';
+        color: #FFFFFF;
+        position: absolute;
+        font-size: 48px;
+        font-weight: lighter;
+        border: 2px solid rgba(255, 255, 255, 0.91);
+        border-radius: 50%;
+        width: 118px;
+        height: 118px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        @media all and (-ms-high-contrast:none) {
+            top: 35%;
+            left: 45%;
+        }
+    }
+    &:hover {
+        &:after {
+            content: '\f04b';
+            color: #fe8836;
+            background: #fff;
+            font-weight: 900;
+        }
+    }
+}

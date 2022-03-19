@@ -1,0 +1,163 @@
+.grecaptcha-badge {
+    display: none;
+}
+.hs_upload_cv {
+    label {
+        display: inline-block;
+        width: 100%;
+        padding: 21px 20px;
+        cursor: pointer;
+        font-size: 14px;
+        font-weight: 700;
+        letter-spacing: -.02em;
+        text-transform: uppercase;
+        background: rgba(255,255,255,.2);
+        color: #fff;
+        display: block;
+        word-wrap: break-word;
+        line-height: 18px;
+        position: relative;
+        overflow: hidden;
+        text-align: center;
+        &::before {
+            content: url(/wp-content/themes/infusemedia/img/upload-icon.png);
+            margin-bottom: 5px;
+            display: block;
+        }
+        &.invalid.error{
+            background: rgba(255,255,255,.8);
+            color: #9a0021;
+        }
+    }
+    .input {
+        display: none;
+    }
+}
+.wpcf7 {
+    max-width: 100%;
+    .wpcf7-form-control-wrap {
+        input, textarea {
+            background: rgba(255,255,255,.2);
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 22px;
+            color: #fff;
+            border-radius: 0;
+            height: 48px;
+            border: 0;
+            padding: 0 20px;
+            color: #fff;
+            height: auto;
+            width: auto;
+            padding: 13px 20px;
+            border-color: #fff;
+            width: 100%;
+            &:hover, &:focus {
+                background: rgba(255,255,255,.15);
+                box-shadow: none;
+                color: #fff;
+            }
+            &::-webkit-input-placeholder {  /* Edge */
+                color: #fff!important;
+                // text-transform: uppercase;
+                font-weight: normal;
+            }
+            
+            &:-ms-input-placeholder { /* Internet Explorer 10-11 */
+                color: #fff!important;
+                // text-transform: uppercase;
+                font-weight: normal;
+            }
+            
+            &::placeholder {
+                color: #fff!important;
+                // text-transform: uppercase;
+                font-weight: normal;
+            }
+            &.wpcf7-not-valid {
+                background: rgba(255, 255, 255, 0.8);
+                color: #9A0021;
+                &::-webkit-input-placeholder { /* Edge */
+                    color: #9A0021!important;
+                }
+                
+                &:-ms-input-placeholder { /* Internet Explorer 10-11 */
+                    color: #9A0021!important;
+                }
+                
+                &::placeholder {
+                    color: #9A0021!important;
+                }
+            }
+        }
+        textarea {
+            height: 115px;
+            padding: 10px 20px;
+        }
+    }
+    label {
+        margin-bottom: 20px;
+    }
+    #upload-cv-label {
+        display: inline-block;
+        width: 100%;
+        padding: 21px 20px;
+        cursor: pointer;
+        font-size: 14px;
+        font-weight: 700;
+        letter-spacing: -0.02em;
+        text-transform: uppercase;
+        background: rgba(255, 255, 255, 0.2);
+        color: #fff;
+        display: block;
+        word-wrap: break-word;
+        line-height: 18px;
+        position: relative;
+        overflow: hidden;
+        text-align: center;
+        &::before {
+            content: url(../img/upload-icon.png);
+            margin-bottom: 5px;
+            display: block;
+        }
+    }
+    #upload-cv {
+        display: none;
+    }
+    input[type=submit] {
+        color: #fff;
+        height: auto;
+        width: auto;
+        padding: 12px 35px;
+        border-color: #fff;
+        &:hover, &:focus {
+            background: #fff;
+            color: $primary;
+            box-shadow: none;
+            border-color: #fff; 
+        }
+    }
+
+    .wpcf7-not-valid-tip {
+        display: none;
+        color: #dc3545;
+        background: #fff;
+        padding: 5px 20px;
+        font-size: 14px;
+    }
+    .wpcf7-validation-errors {
+        font-size: 12px;
+        height: auto;
+        border: 0;
+        border-radius: 0;
+        font-weight: 300;
+        margin-top: 0;
+        background: transparent;
+        color: #fff;
+        text-align: center;
+    }
+    .wpcf7-response-output {
+        display: none;
+        margin-top: 20px;
+    }
+}

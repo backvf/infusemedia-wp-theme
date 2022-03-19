@@ -1,0 +1,165 @@
+// START - Do not sell my information page
+.do-not-sell-form {
+    background: linear-gradient(225.64deg, #3ECEDD -38.87%, #005EAB 79.25%);
+    .wpcf7-form-control-wrap {
+        padding: 0 20px;
+        display: inline-block;
+        width: 100%;
+        margin-bottom: 5px;
+        @media (max-width: 767px) {
+            padding: 0;
+        }
+    }
+}
+
+.check-do-not-sell {
+    margin-top: 10px;
+}
+.wpcf7-checkbox {
+    label {
+        margin-bottom: 0;
+    }
+    span.wpcf7-list-item-label {
+        font-size: 14px;
+        line-height: 22px;
+        font-weight: 600;
+        color: #FFFFFF;
+        padding-left: 15px;
+        float: left;
+        position: relative;
+        &:before {
+            content: '';
+            width: 19px;
+            height: 19px;
+            border: 1px solid #FFFFFF;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            vertical-align: middle;
+            position: absolute;
+            left: -17px;
+            top: 1px;
+        }
+    }
+    input[type="checkbox"] {
+        display: none;
+        &:checked + span.wpcf7-list-item-label:before {
+            content: '\f00c';
+            font-family: 'Font Awesome 5 Pro';
+            font-weight: 700;
+            font-size: 15px;
+            background: #fff;
+            color: #005dab;
+        }
+    }
+}
+// END - Do not sell my information page
+
+// START - Cookie policy page
+#cmplz-document {
+    max-width: 100%;
+    margin-top: 110px;
+    background: url(/wp-content/uploads/2020/07/Stripes-4.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    padding-bottom: 65px;
+    a {
+        color: #333333;
+        text-decoration: underline;
+        &:hover {
+            color: #0097dd;
+        }
+    }
+    p, li, td {
+        font-size: 18px;
+        line-height: 29px;
+    }
+    h2, h3 {
+        font-size: 28px;
+        font-weight: 800;
+        line-height: 37px;
+        border-top: 1px solid #C4C4C4;
+        border-bottom: 0;
+        padding-top: 80px;
+        margin-top: 70px;
+        &:before {
+            content: '';
+            width: 85px;
+            height: 5px;
+            background: #FE8836;
+            display: block;
+            margin-bottom: 35px;
+        }
+        @media (max-width: 767px) {
+            padding-top: 40px;
+            margin-top: 30px;
+        }
+    }
+    h4 {
+        font-size: 20px;
+        font-weight: 800;
+        color: #1C3C70;
+        margin-top: 32px;
+        margin-bottom: 20px;
+    }
+    h5 {
+        font-size: 18px;
+        line-height: 29px;
+    }
+    .cmplz-subtitle {
+        font-weight: 800;
+        font-size: 22px;
+        line-height: 51px;
+        color: #1C3C70;
+    }
+    table {
+        border: 1px solid #E5E5E5;
+        border-right: none;
+        margin-top: 30px;
+        max-width: 730px;
+        td {
+            border-bottom: 1px solid #E5E5E5;
+            border-right: 1px solid #E5E5E5;
+            padding: 15px;
+            b {
+                color: #FE8836;
+                font-weight: 800;
+            }
+        }
+        tbody tr:first-child td {
+            color: #1C3C70;
+            font-weight: 700;
+        }
+    }
+    ul {
+        list-style-type: none;
+        padding-left: 0;
+        margin-left: 0;
+        margin-bottom: 30px;
+        li:before {
+            content: '';
+            display: inline-block;
+            width: 12px;
+            height: 12px;
+            background: url(/wp-content/themes/infusemedia/img/infuse-bullet.png) no-repeat center;
+            margin-right: 25px;
+            background-size: cover;
+            vertical-align: middle;
+        }
+    }
+
+    @media (max-width:1499px) {
+        background-size: 40%;
+    }
+    @media (max-width:1199px) {
+        background-size: 30%;
+    }
+    @media (max-width:767px) {
+        background: none;
+        margin-top: 60px;
+    }
+}
+// END - Cookie policy page
+
+
+

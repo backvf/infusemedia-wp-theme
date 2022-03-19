@@ -1,0 +1,173 @@
+.whatwedo-h1{
+    font-weight: 1000!important;
+    line-height: 78px;
+    font-size:70px;
+    width: 467px;
+}
+
+.whatwedoheader{
+    padding-top:108px;
+    padding-bottom:66px;
+    @media (max-width: 1440px) {
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+}
+
+.whatwedo-h2 p{
+    font-style: normal;
+    font-weight: bold !important;
+    font-size: 20px;
+    line-height: 26px;
+    color:white;
+    padding-top:40px;
+}
+
+.arrow-button{
+    margin-top:37px;
+}
+
+.arrow-button a{
+    background-color:transparent !important;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px !important;
+    line-height: 23px !important;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #FFFFFF!important;
+    border: none !important;
+    text-align: center !important;
+    padding: 0px !important;
+}
+
+.arrow-button:after{
+    content: '→';
+    font-size: 20px;
+    padding-left: 10px;
+    color: white;
+}
+
+.whatwedo-sub-banner{
+    background: linear-gradient(182.36deg, #0D60A9 -30.14%, #47CEDC 130.56%);
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+.whatwedo-sub-banner-title p{
+    font-family: Muli,sans-serif!important;
+    font-style: normal;
+    font-weight: 900 !important;
+    font-size: 34px;
+    line-height: 108.5%;
+    color:white;
+    padding-top:33px;
+    @media screen and (max-width: 1440px) {
+        font-size: 26px;
+    }
+}
+
+.whatwedo-sub-banner-content p{
+    font-family: Muli,sans-serif!important;
+    font-style: normal;
+    font-weight: bold !important;
+    font-size: 24px;
+    line-height: 27px;
+    color:white;
+    @media screen and (max-width: 1440px) {
+        font-size: 20px;
+    }
+}
+
+.whatwedo-sub-banner-content p:before{
+    content:" ";
+    width:29px;
+    height:5px;
+    background-color:#FE8836;
+    display:block;
+    margin-bottom: 18px;
+    margin-top: -5px;
+}
+
+.whatwedo-sub-banner-col{
+    border-left: 1px solid rgba(255, 255, 255, 0.33);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    @media (max-width: 1440px) {
+        .whatwedo-sub-banner-col {
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+    }
+}
+
+.whatwedoheader{
+    background-image:url("../img/what-we-do-banner-bg.jpg");
+    background-size:cover;
+}
+
+@media only screen and (max-width: 767px) {
+
+    .whatwedoheader{
+        background-image:url("../img/what-we-do-banner-bg-mobile.jpg");
+        background-size:cover;
+    }
+
+    .whatwedo-sub-banner{
+        background: linear-gradient(211.46deg, #0D60A9 -30.14%, #47CEDC 130.56%);
+    }
+    
+    .whatwedo-sub-banner-col {
+        border-left: 1px solid rgba(255, 255, 255, 0.33);
+        padding-top: 15px;
+        padding-bottom: 0px;
+        padding-left: 30px;
+        margin-bottom: 30px;
+        margin-top: 30px;
+        margin-left: 15px;
+    }
+    
+    .whatwedo-sub-banner-title p{
+        margin-left: 10px;
+    }
+    
+    .whatwedo-h1{
+        font-family: Muli,sans-serif!important;
+        font-weight: 900 !important;
+        line-height: 48px !important;
+        font-size:46px !important;
+        width: 100%;
+        width: 306px;
+    }
+    
+    // .whatwedoheader{
+    //     padding-top:75px;
+    //     padding-bottom:147px;
+    // }
+    
+    .whatwedo-h2 p{
+        font-family: Muli,sans-serif!important;
+        font-style: normal;
+        font-weight: bold !important;
+        font-size: 16px !important;
+        line-height: 25px !important;
+        color:white;
+        padding-top:40px;
+    }
+    
+    .arrow-button{
+        display:none !important;
+    }
+    
+    .whatwedo-sub-banner-content p{
+        font-family: Muli,sans-serif!important;
+        font-style: normal;
+        font-weight: bold !important;
+        font-size: 20px !important;
+        line-height: 27px !important;
+        color:white;
+    }
+    
+}

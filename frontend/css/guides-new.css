@@ -1,0 +1,401 @@
+.guide__right_custom .guide__text {
+  max-width: 811px;
+}
+.guide__container_custom {
+  padding-bottom: 65px;
+}
+.guide__right_custom {
+  padding-bottom: 0;
+}
+.guide-head__ttl_guide-three {
+  max-width: none;
+  font-size: 36px;
+  line-height: 40px;
+}
+.guide-head__sub-ttl {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 26px;
+  line-height: 32px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+.guide-head__ttl + .guide-head__sub-ttl {
+  margin-top: 20px;
+}
+.guide__experts {
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.guide__expert-item {
+  border-bottom: 2px solid #E4E4E4;
+  padding-top: 57px;
+  padding-bottom: 31px;
+}
+.guide__expert-item:first-child {
+  padding-top: 75px;
+}
+.guide__expert-item:last-child {
+  border-bottom: none;
+}
+.guide__expert-img-container {
+  width: 100%;
+  margin-bottom: 30px;
+}
+.guide__expert-img {
+  max-width: none;
+  width: 100%;
+}
+.guide__expert-name {
+  font-size: 24px;
+  line-height: normal;
+  font-weight: 800;
+  color: #FFFFFF;
+  background: #FE8836;
+  padding: 17.5px 15px;
+  text-align: center;
+}
+.guide__expert-img-wrapper + .guide__expert-name {
+  margin-top: 4px;
+}
+.guide__expert-info {
+  color: #585858;
+}
+.guide__expert-info > .guide__text {
+  padding-bottom: 24px;
+  max-width: none;
+}
+.guide__expert-info strong {
+  color: #005EAB;
+}
+.guide__expert-sub-title {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #005EAB;
+  margin: 0 0 24px;
+}
+.guide__expert-clear {
+  clear: both;
+  display: block;
+}
+.guide__about-author {
+  padding-bottom: 24px;
+}
+.guide__about-author-title {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #005EAB;
+  margin: 0 0 4px;
+  text-align: center;
+}
+.guide__about-author > .guide__text {
+  max-width: none;
+  line-height: 30px;
+}
+.guide__about-author p {
+  line-height: 30px;
+}
+.guide__final-thoughts {
+  padding: 55px 0 38px;
+  background: linear-gradient(to right, #1b3e72 0%,#097BBC 100%);
+  position: relative;
+}
+.guide__final-thoughts .guide__row-right {
+  opacity: 0.7;
+}
+.guide__final-thoughts .guide__row-right--t2,
+.guide__final-thoughts .guide__row-right--t2:before,
+.guide__final-thoughts .guide__row-right--t2:after {
+  -webkit-clip-path: polygon(158px 0%, 100% 0, 100% 100%, 0% 100%);
+  clip-path: polygon(158px 0%, 100% 0, 100% 100%, 0% 100%);
+}
+.guide__final-thoughts-content {
+  position: relative;
+  z-index: 2;
+  margin: 0 auto;
+  padding: 0 15px;
+  text-align: center;
+}
+.guide__final-thoughts-title {
+  font-size: 30px;
+  line-height: 1.2;
+  font-weight: 800;
+  color: #FE8836;
+  margin: 0 0 28px;
+}
+.guide__final-thoughts-text {
+  color: #FFFFFF;
+  font-weight: 700;
+  padding-bottom: 3px;
+  line-height: 24px;
+}
+.guide__key-points {
+  padding-top: 53px;
+  padding-bottom: 13px;
+  text-align: center;
+}
+.guide__key-points-title {
+  font-size: 36px;
+  line-height: 1.2;
+  color: #005EAB;
+  font-weight: 800;
+  margin: 0 0 28px;
+}
+.guide__recommendations {
+  padding-top: 10px;
+}
+.guide__recommendations-wrapper {
+  padding: 55px 0 30px;
+  background: linear-gradient(to right, #1b3e72 0%,#097BBC 100%);
+  position: relative;
+  overflow: hidden;
+}
+.guide__recommendations-img {
+  position: absolute;
+  top: 50%;
+  left: 711px;
+  transform: translateY(-50%);
+  z-index: 1;
+  display: none;
+}
+.guide__recommendations-content {
+  position: relative;
+  z-index: 2;
+  margin: 0 auto;
+  padding: 0 15px;
+  text-align: center;
+}
+.guide__recommendations-title {
+  font-size: 30px;
+  line-height: 1.2;
+  font-weight: 800;
+  margin: 0 0 30px;
+  color: #FE8836;
+  max-width: 450px;
+}
+.guide__recommendations-text, .guide__recommendations-text p {
+  color: #FFFFFF!important;
+  line-height: 24px;
+  padding-bottom: 6px;
+}
+.guide__text-link {
+  word-wrap: break-word;
+}
+@media screen and (max-width: 1000px) {
+  .guide__left {
+    z-index: 500;
+  }
+}
+@media screen and (min-width: 375px) {
+  .guide__experts {
+    max-width: 345px;
+  }
+  .guide__final-thoughts-content {
+    max-width: 345px;
+  }
+  .guide__recommendations-content {
+    max-width: 345px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .guide-head__ttl_guide-three {
+    font-size: 54px;
+    line-height: 58px;
+    max-width: 770px;
+  }
+  .guide-head__sub-ttl {
+    max-width: 770px;
+    font-size: 44px;
+    line-height: 52px;
+  }
+  .guide__recommendations-content {
+    max-width: 738px;
+    text-align: left;
+  }
+  .guide__experts {
+    max-width: 738px;
+  }
+  .guide__expert-img-container {
+    float: left;
+    width: 220px;
+    margin-right: 30px;
+    padding-top: 5px;
+  }
+  .guide__expert-name {
+    font-size: 16px;
+    padding: 12px 15px;
+  }
+  .guide__about-author-title {
+    text-align: left;
+  }
+  .guide__final-thoughts-content {
+    text-align: left;
+    max-width: 738px;
+  }
+  .guide__key-points {
+    text-align: left;
+  }
+  .guide__key-points-title {
+    font-size: 30px;
+  }
+}
+@media screen and (min-width: 1001px) {
+  .guide-menu__item.dt-opened .guide-menu__sublist_custom {
+    max-height: 1000px;
+  }
+  .guide__recommendations-wrapper {
+    padding: 55px 20px 30px;
+  }
+  .guide__recommendations-content {
+    padding: 0;
+    margin: 0;
+    max-width: 630px;
+  }
+  .guide__experts {
+    max-width: 850px;
+    padding: 0;
+    margin: 0;
+  }
+  .guide__expert-img-container {
+    width: 260px;
+  }
+  .guide__expert-name {
+    font-size: 24px;
+    padding: 17.5px 15px;
+  }
+  .guide__expert-info {
+    padding-right: 20px;
+  }
+  .guide__final-thoughts {
+    padding: 55px 20px 38px;
+  }
+  .guide__final-thoughts-content {
+    max-width: 450px;
+    padding: 0;
+    margin: 0;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .guide__expert-info {
+    padding: 0;
+  }
+  .guide__final-thoughts {
+    padding: 55px 0 38px 40px;
+  }
+  .guide__recommendations-wrapper {
+    padding: 55px 0 30px 40px;
+  }
+  .guide__recommendations-img {
+    display: block;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .guide__right_custom .guide__text {
+    max-width: 950px;
+  }
+  .guide-head__ttl_guide-three {
+    max-width: 1000px;
+    font-size: 70px;
+    line-height: 74px;
+  }
+  .guide-head__sub-ttl {
+    max-width: 1000px;
+    font-size: 58px;
+    line-height: 63px;
+  }
+  .guide__experts {
+    max-width: 990px;
+  }
+  .guide__expert-item {
+    padding-bottom: 35px;
+  }
+  .guide__expert-img-container {
+    margin-bottom: 26px;
+  }
+  .guide__expert-info {
+    padding-bottom: 8px;
+    margin-bottom: -32px;
+  }
+  .guide__expert-item_padding-text-left .guide__expert-info {
+    margin-left: 290px;
+  }
+  .guide__expert-info > .guide__text {
+    padding-bottom: 47px;
+  }
+  .guide__about-author {
+    padding-bottom: 44px;
+  }
+  .guide__final-thoughts-content {
+    max-width: 745px;
+  }
+  .guide__final-thoughts-title {
+    font-size: 36px;
+    line-height: 40px;
+  }
+  .guide__recommendations-title {
+    font-size: 36px;
+    line-height: 40px;
+  }
+  .guide__key-points-title {
+    font-size: 36px;
+    line-height: 40px;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .guide__right_custom .guide__text {
+    max-width: 1101px;
+  }
+  .guide-head__ttl + .guide-head__sub-ttl {
+    margin-top: 38px;
+  }
+  .guide__recommendations-wrapper {
+    padding-left: 55px;
+  }
+  .guide__final-thoughts {
+    padding-left: 55px;
+  }
+  .guide__experts {
+    max-width: 1156px;
+  }
+  .guide__expert-item {
+    padding-right: 30px;
+    padding-bottom: 0;
+  }
+  .guide__expert-img-container {
+    margin-right: 45px;
+    margin-bottom: 61px;
+  }
+  .guide__expert-item_padding-image-bottom .guide__expert-img-container {
+    margin-bottom: 26px;
+  }
+  .guide__expert-info {
+    padding-bottom: 37px;
+    margin-bottom: 0;
+  }
+  .guide__expert-item_padding-text-left .guide__expert-info {
+    margin-left: 305px;
+  }
+  .guide__expert-item_padding-text-below .guide__expert-info {
+    padding-bottom: 8px;
+  }
+  .guide__expert-info > .guide__text {
+    padding-bottom: 18px;
+  }
+  .guide__expert-item_padding-text-below .guide__expert-info > .guide__text {
+    padding-bottom: 47px;
+  }
+  .guide__about-author {
+    padding-bottom: 15px;
+  }
+  .guide__expert-item_padding-text-below .guide__about-author {
+    padding-bottom: 44px;
+  }
+}
+@media screen and (min-width: 1700px) {
+  .guide__recommendations-img {
+    left: auto;
+    right: 84px;
+  }
+}

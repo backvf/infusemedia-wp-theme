@@ -22,6 +22,15 @@ $container = get_theme_mod( 'understrap_container_type' );
 <?php if ( is_front_page() && is_home() ) : ?>
 	<?php get_template_part( 'global-templates/hero' ); ?>
 <?php endif; ?>
+<?php if (user_can( wp_get_current_user(), 'administrator' )) : ?>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <?php echo do_shortcode('[wd_asp id=2]'); ?>
+            </div>
+        </div>
+    </div>
+<?php endif; ?>
 
 <div class="wrapper" id="index-wrapper">
 
