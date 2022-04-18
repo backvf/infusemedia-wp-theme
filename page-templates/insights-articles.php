@@ -36,7 +36,8 @@ $current_url = home_url(add_query_arg(array(), $wp->request));  ?>
 <?php $id = get_the_ID(); ?>
 
 <div class="insights-article <?php echo get_the_category( $id )[0]->slug; ?>">
-
+<link rel='stylesheet' id='dashicons-css' href='https://infusemedia.com/wp-content/themes/infusemedia/frontend/css/vs/guides.css' media='all' />
+<link rel='stylesheet' id='understrap-styles-css' href='https://infusemedia.com/wp-content/themes/infusemedia/css/theme.min.css?ver=0.9.4' media='all' />
 <?php
 
 // Check value exists.

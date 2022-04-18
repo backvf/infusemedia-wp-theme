@@ -65,6 +65,8 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 
 	</script>
+
+<meta name="google-site-verification" content="Q8wjMI7C1HTO1VQn4pg4vDZvN8Wi2anG9uQNs5QMD3k" />
 </head>
 
 <body <?php body_class(); ?> <?php understrap_body_attributes(); ?>>

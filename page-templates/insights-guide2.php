@@ -36,7 +36,7 @@ the_post();
 	var offtop=600;
 	var offbottom=jQuery('.wrapper__footer').offset();
     bottom=offbottom.top-1000;
-    
+
         if (jQuery(window).scrollTop() > offtop && jQuery(window).scrollTop() < bottom) {
 		jQuery('.guide__left-inner').css({'position':'fixed'});
 		}
@@ -93,9 +93,9 @@ the_post();
                 	<div class="guide__left-menu">
                 		<div class="guide__left-scroll">
                 			<div class="guide-menu">
-                            
+
                 				<ul class="guide-menu__list scrollspy-menu">
-                                
+
 
                 					<?php while(have_rows("summary")): the_row(); ?>
                 						<li class="guide-menu__item scrollspy-parent">
@@ -114,7 +114,7 @@ the_post();
                 									<?php endwhile; ?>
                 								</ul>
                 							<?php endif; ?>
-                						</li>	
+                						</li>
                 					<?php endwhile; ?>
                 				</ul>
                 			</div>
@@ -138,23 +138,34 @@ the_post();
                 		            </a></li>
                 		    </ul>
                 		</div>
+                        <?php $pdf=get_field('pdf');
+
+                        ?>
+                        <?php if($pdf!=""){ ?>
+                            <a class="guide__download guide__download_sidebar" href="<?php echo $pdf;?>" target="_blank">
+											<span class="guide__download-text">
+												Download PDF
+											</span>
+                                <span class="guide__download-icon"></span>
+                            </a>
+                        <?php } ?>
                 	</div>
-                </div>                
+                </div>
             </div>
             <div class="guide__right">
                 <!-- (guide content) -->
                 <div class="guide__content">
-                	
-                	<?php 
-                    
-                    
-                    $content=get_field("content_group"); 
-                    
+
+                	<?php
+
+
+                    $content=get_field("content_group");
+
 					echo $content["top_description"];
 					echo $content["top_cta"];
 					echo $content["top_description_2"];
 					echo $content["recomendations"];
-                    
+
 ?>
 					<div class="guide__experts">
 					<?php
@@ -179,12 +190,12 @@ the_post();
 </div>
 </div>
 </div>
-</div>						
+</div>
 						<?php
 					}
 					?>
 					</div>
-					<?php			
+					<?php
 					echo $content["final_thoughts"];
 					echo $content["bottom_description"];
 					?>

@@ -336,18 +336,19 @@ $ishome=0;
 $url=$_SERVER["REQUEST_URI"];
 if($url=="/" || $url=="/index.php") {$ishome=1;}
 ?>
-<?php if(!$ishome) { ?>
+<?php if($ishome) { ?>
 <div class="mypopup">
-	<div class="mypopup-bg"></div>
+    <div class="mypopup-bg"></div>
     <div class="mypopup-inner">
-    	<div class="mypopup-body" style="padding:0!important;">
-        	<div class="mypopup-close" style="right:-30px!important;top:-30px!important;"><img src="/wp-content/themes/infusemedia/frontend/images/close.svg"></div>
-
+        <div class="mypopup-body" style="padding:0!important;">
+            <div class="mypopup-close" style="right:-30px!important;top:-30px!important;">
+                <img src="/wp-content/themes/infusemedia/frontend/images/close.svg">
+            </div>
             <div class="mypopup-content">
-	<div class="mypopup-play">
-	<a onclick="AccPlay2()"><img src="/wp-content/themes/infusemedia/img/play.png"></a>
-	</div>
-			<video  id="acc-video" controls="controls" src="https://infusemedia.com/images/awards-video.mp4" poster="https://infusemedia.com/images/acc-bg-popup.jpg"></video>
+                <div class="mypopup-play">
+                    <a onclick="AccPlay2()"><img src="/wp-content/themes/infusemedia/img/play.png"></a>
+                </div>
+                <video  id="acc-video" controls="controls" src="https://infusemedia.com/images/awards-video.mp4" poster="https://infusemedia.com/images/acc-bg-popup.jpg"></video>
             </div>
         </div>
     </div>

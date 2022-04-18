@@ -30,6 +30,45 @@ jQuery(document).ready(function($) {
 			revsInit = true;
 		}
 	});
+	
+	
+
+	$('.gdoor').each(function() {
+		var revs = $(this),
+			slides = revs.find('.gdoor-item'),
+			links = revs.find('.gdoor-nav__link'),
+			revsInit = false;
+
+		links.on('click',function() {
+			var id = $(this).attr('data-gdoor');
+
+			revsGo(id);
+		});
+
+		links.last().trigger('click');
+
+		function revsGo(id) {
+			links.removeClass('active');
+			revs.find('.gdoor-nav__link[data-gdoor="'+id+'"]').addClass('active');
+
+			slides.removeClass('active');
+			revs.find('.gdoor-item[data-gdoor="'+id+'"]').addClass('active');
+
+			if (revsInit) {
+				if (window.matchMedia('(max-width:1299px)').matches) {
+					var revsPos = revs.offset().top;
+					$('html, body').animate({scrollTop:revsPos - 70},300);
+				}
+			}
+
+			revsInit = true;
+		}
+	});
+
+
+	
+	
+	
 
 	// Scroll Spy
 	function scrollSpy(block, options) {

@@ -433,7 +433,7 @@ get_header();
 									<div class="story-2022__body" id="story-2022__body">
 										<div class="story-2022__left">
 											<div class="story-2022__left-in">
-												<img src="/wp-content/themes/infusemedia/frontend/images/story/2022-left.jpg" />
+												<img src="/wp-content/themes/infusemedia/frontend/images/story/2022-left.png" />
 											</div>
 											<div class="story-2022__stripe">
 												<div class="story-2022__stripe-in"></div>
@@ -444,22 +444,25 @@ get_header();
 												<img src="/wp-content/themes/infusemedia/frontend/images/story/2022-award.svg" alt="" />
 											</div>
 										</div>
+										<div class="story-2022__award2" data-scroll data-scroll-speed="1.5" data-scroll-target="#story-2022">
+											<img src="/wp-content/themes/infusemedia/frontend/images/story/2022-award2.svg" alt="" />
+										</div>
 										<div class="story-2022__text story-text" id="story-2022__text">
 											<div class="story-2022__text-in">
-												INFUSEmedia earns the <b style="color:#F7BC34;">2022 Top Workplaces USA</b> award, issued by Energage, a purpose-driven organization that develops solutions to build and brand Top Workplaces.
+												INFUSEmedia earns the <b style="color:#F7BC34;">2022 Top Workplaces USA</b> award and is named No. 67 on the <b style="color:#FF4713;">Inc. 5000 Regionals Southeast</b> list as one of the fastest-growing and purpose-driven private companies.
 											</div>
 										</div>
 										<div class="story-2022__right" data-scroll>
 											<div class="story-2022__right-in" style="background-image:url(/wp-content/themes/infusemedia/frontend/images/story/2022-right.jpg);" data-scroll data-scroll-sticky data-scroll-target="#story-2022-traget"></div>
 										</div>
 										<div class="story-line-c story-line-c--2022-1">
-											<div class="story-line"><div class="story-line__in" data-scroll data-scroll-speed="-1.5" data-scroll-target="#story-2022"><div style="background:#F7BC34;"></div></div></div>
+											<div class="story-line"><div class="story-line__in" data-scroll data-scroll-speed="-1.5" data-scroll-target="#story-2022"><div style="background:#010101;"></div></div></div>
 										</div>
 										<div class="story-line-c story-line-c--2022-2">
-											<div class="story-line"><div class="story-line__in" data-scroll data-scroll-speed="1.5" data-scroll-target="#story-2022"><div style="background:#1C3C70;"></div></div></div>
+											<div class="story-line"><div class="story-line__in" data-scroll data-scroll-speed="1.5" data-scroll-target="#story-2022"><div style="background:#F04F33;"></div></div></div>
 										</div>
 										<div class="story-line-c story-line-c--2022-3">
-											<div class="story-line"><div class="story-line__in" data-scroll data-scroll-speed="1.5" data-scroll-target="#story-2022"><div style="background:#1C3C70;"></div></div></div>
+											<div class="story-line"><div class="story-line__in" data-scroll data-scroll-speed="1.5" data-scroll-target="#story-2022"><div style="background:#F7BC34;"></div></div></div>
 										</div>
 									</div>
 								</div>
@@ -501,129 +504,129 @@ get_header();
 									<div class="story-tod__bot" id="story-tod-bot">
 										<div class="story-tod__awards">
 											<picture>
-												<source srcset="/wp-content/themes/infusemedia/frontend/images/story/tod-awards3.png?t=12345" media="(max-width:767px)">
-												<source srcset="/wp-content/themes/infusemedia/frontend/images/story/tod-awards1.png?t=12345">
-												<img src="/wp-content/themes/infusemedia/frontend/images/story/tod-awards1.png?t=12345" />
+												<source srcset="/wp-content/themes/infusemedia/frontend/images/story/tod-awards3.png?t=123456" media="(max-width:767px)">
+												<source srcset="/wp-content/themes/infusemedia/frontend/images/story/tod-awards1.png?t=123456">
+												<img src="/wp-content/themes/infusemedia/frontend/images/story/tod-awards1.png?t=123456" />
 											</picture>
 										</div>
 										<div class="story-tod__aw" data-scroll data-scroll-repeat>
 											<div class="story-tod__aw-layer story-tod__aw-layer--f story-tod__aw-layer--1">
 												<picture>
-													<source srcset="/wp-content/themes/infusemedia/frontend/images/story/tod-awards3.png?t=12345" media="(max-width:767px)">
-													<source srcset="/wp-content/themes/infusemedia/frontend/images/story/tod-awards1.png?t=12345">
-													<img src="/wp-content/themes/infusemedia/frontend/images/story/tod-awards1.png?t=12345" />
+													<source srcset="/wp-content/themes/infusemedia/frontend/images/story/tod-awards3.png?t=123456" media="(max-width:767px)">
+													<source srcset="/wp-content/themes/infusemedia/frontend/images/story/tod-awards1.png?t=123456">
+													<img src="/wp-content/themes/infusemedia/frontend/images/story/tod-awards1.png?t=123456" />
 												</picture>
 											</div>
 											<div class="story-tod__aw-layer story-tod__aw-layer--2">
 												<picture>
-													<source srcset="/wp-content/themes/infusemedia/frontend/images/story/tod-awards3.png?t=12345" media="(max-width:767px)">
-													<source srcset="/wp-content/themes/infusemedia/frontend/images/story/tod-awards1.png?t=12345">
-													<img src="/wp-content/themes/infusemedia/frontend/images/story/tod-awards1.png?t=12345" />
+													<source srcset="/wp-content/themes/infusemedia/frontend/images/story/tod-awards3.png?t=123456" media="(max-width:767px)">
+													<source srcset="/wp-content/themes/infusemedia/frontend/images/story/tod-awards1.png?t=123456">
+													<img src="/wp-content/themes/infusemedia/frontend/images/story/tod-awards1.png?t=123456" />
 												</picture>
 											</div>
 											<div class="story-tod__aw-layer story-tod__aw-layer--3">
 												<picture>
-													<source srcset="/wp-content/themes/infusemedia/frontend/images/story/tod-awards3.png?t=12345" media="(max-width:767px)">
-													<source srcset="/wp-content/themes/infusemedia/frontend/images/story/tod-awards1.png?t=12345">
-													<img src="/wp-content/themes/infusemedia/frontend/images/story/tod-awards1.png?t=12345" />
+													<source srcset="/wp-content/themes/infusemedia/frontend/images/story/tod-awards3.png?t=123456" media="(max-width:767px)">
+													<source srcset="/wp-content/themes/infusemedia/frontend/images/story/tod-awards1.png?t=123456">
+													<img src="/wp-content/themes/infusemedia/frontend/images/story/tod-awards1.png?t=123456" />
 												</picture>
 											</div>
 											<div class="story-tod__aw-layer story-tod__aw-layer--4">
 												<picture>
-													<source srcset="/wp-content/themes/infusemedia/frontend/images/story/tod-awards3.png?t=12345" media="(max-width:767px)">
-													<source srcset="/wp-content/themes/infusemedia/frontend/images/story/tod-awards1.png?t=12345">
-													<img src="/wp-content/themes/infusemedia/frontend/images/story/tod-awards1.png?t=12345" />
+													<source srcset="/wp-content/themes/infusemedia/frontend/images/story/tod-awards3.png?t=123456" media="(max-width:767px)">
+													<source srcset="/wp-content/themes/infusemedia/frontend/images/story/tod-awards1.png?t=123456">
+													<img src="/wp-content/themes/infusemedia/frontend/images/story/tod-awards1.png?t=123456" />
 												</picture>
 											</div>
 											<div class="story-tod__aw-layer story-tod__aw-layer--5">
 												<picture>
-													<source srcset="/wp-content/themes/infusemedia/frontend/images/story/tod-awards3.png?t=12345" media="(max-width:767px)">
-													<source srcset="/wp-content/themes/infusemedia/frontend/images/story/tod-awards1.png?t=12345">
-													<img src="/wp-content/themes/infusemedia/frontend/images/story/tod-awards1.png?t=12345" />
+													<source srcset="/wp-content/themes/infusemedia/frontend/images/story/tod-awards3.png?t=123456" media="(max-width:767px)">
+													<source srcset="/wp-content/themes/infusemedia/frontend/images/story/tod-awards1.png?t=123456">
+													<img src="/wp-content/themes/infusemedia/frontend/images/story/tod-awards1.png?t=123456" />
 												</picture>
 											</div>
 											<div class="story-tod__aw-layer story-tod__aw-layer--6">
 												<picture>
-													<source srcset="/wp-content/themes/infusemedia/frontend/images/story/tod-awards3.png?t=12345" media="(max-width:767px)">
-													<source srcset="/wp-content/themes/infusemedia/frontend/images/story/tod-awards1.png?t=12345">
-													<img src="/wp-content/themes/infusemedia/frontend/images/story/tod-awards1.png?t=12345" />
+													<source srcset="/wp-content/themes/infusemedia/frontend/images/story/tod-awards3.png?t=123456" media="(max-width:767px)">
+													<source srcset="/wp-content/themes/infusemedia/frontend/images/story/tod-awards1.png?t=123456">
+													<img src="/wp-content/themes/infusemedia/frontend/images/story/tod-awards1.png?t=123456" />
 												</picture>
 											</div>
 											<div class="story-tod__aw-layer story-tod__aw-layer--7">
 												<picture>
-													<source srcset="/wp-content/themes/infusemedia/frontend/images/story/tod-awards3.png?t=12345" media="(max-width:767px)">
-													<source srcset="/wp-content/themes/infusemedia/frontend/images/story/tod-awards1.png?t=12345">
-													<img src="/wp-content/themes/infusemedia/frontend/images/story/tod-awards1.png?t=12345" />
+													<source srcset="/wp-content/themes/infusemedia/frontend/images/story/tod-awards3.png?t=123456" media="(max-width:767px)">
+													<source srcset="/wp-content/themes/infusemedia/frontend/images/story/tod-awards1.png?t=123456">
+													<img src="/wp-content/themes/infusemedia/frontend/images/story/tod-awards1.png?t=123456" />
 												</picture>
 											</div>
 											<div class="story-tod__aw-layer story-tod__aw-layer--8">
 												<picture>
-													<source srcset="/wp-content/themes/infusemedia/frontend/images/story/tod-awards3.png?t=12345" media="(max-width:767px)">
-													<source srcset="/wp-content/themes/infusemedia/frontend/images/story/tod-awards1.png?t=12345">
-													<img src="/wp-content/themes/infusemedia/frontend/images/story/tod-awards1.png?t=12345" />
+													<source srcset="/wp-content/themes/infusemedia/frontend/images/story/tod-awards3.png?t=123456" media="(max-width:767px)">
+													<source srcset="/wp-content/themes/infusemedia/frontend/images/story/tod-awards1.png?t=123456">
+													<img src="/wp-content/themes/infusemedia/frontend/images/story/tod-awards1.png?t=123456" />
 												</picture>
 											</div>
 											<div class="story-tod__aw-layer story-tod__aw-layer--9">
 												<picture>
-													<source srcset="/wp-content/themes/infusemedia/frontend/images/story/tod-awards3.png?t=12345" media="(max-width:767px)">
-													<source srcset="/wp-content/themes/infusemedia/frontend/images/story/tod-awards1.png?t=12345">
-													<img src="/wp-content/themes/infusemedia/frontend/images/story/tod-awards1.png?t=12345" />
+													<source srcset="/wp-content/themes/infusemedia/frontend/images/story/tod-awards3.png?t=123456" media="(max-width:767px)">
+													<source srcset="/wp-content/themes/infusemedia/frontend/images/story/tod-awards1.png?t=123456">
+													<img src="/wp-content/themes/infusemedia/frontend/images/story/tod-awards1.png?t=123456" />
 												</picture>
 											</div>
 											<div class="story-tod__aw-layer story-tod__aw-layer--10">
 												<picture>
-													<source srcset="/wp-content/themes/infusemedia/frontend/images/story/tod-awards3.png?t=12345" media="(max-width:767px)">
-													<source srcset="/wp-content/themes/infusemedia/frontend/images/story/tod-awards1.png?t=12345">
-													<img src="/wp-content/themes/infusemedia/frontend/images/story/tod-awards1.png?t=12345" />
+													<source srcset="/wp-content/themes/infusemedia/frontend/images/story/tod-awards3.png?t=123456" media="(max-width:767px)">
+													<source srcset="/wp-content/themes/infusemedia/frontend/images/story/tod-awards1.png?t=123456">
+													<img src="/wp-content/themes/infusemedia/frontend/images/story/tod-awards1.png?t=123456" />
 												</picture>
 											</div>
 											<div class="story-tod__aw-layer story-tod__aw-layer--11">
 												<picture>
-													<source srcset="/wp-content/themes/infusemedia/frontend/images/story/tod-awards3.png?t=12345" media="(max-width:767px)">
-													<source srcset="/wp-content/themes/infusemedia/frontend/images/story/tod-awards1.png?t=12345">
-													<img src="/wp-content/themes/infusemedia/frontend/images/story/tod-awards1.png?t=12345" />
+													<source srcset="/wp-content/themes/infusemedia/frontend/images/story/tod-awards3.png?t=123456" media="(max-width:767px)">
+													<source srcset="/wp-content/themes/infusemedia/frontend/images/story/tod-awards1.png?t=123456">
+													<img src="/wp-content/themes/infusemedia/frontend/images/story/tod-awards1.png?t=123456" />
 												</picture>
 											</div>
 											<div class="story-tod__aw-layer story-tod__aw-layer--12">
 												<picture>
-													<source srcset="/wp-content/themes/infusemedia/frontend/images/story/tod-awards3.png?t=12345" media="(max-width:767px)">
-													<source srcset="/wp-content/themes/infusemedia/frontend/images/story/tod-awards1.png?t=12345">
-													<img src="/wp-content/themes/infusemedia/frontend/images/story/tod-awards1.png?t=12345" />
+													<source srcset="/wp-content/themes/infusemedia/frontend/images/story/tod-awards3.png?t=123456" media="(max-width:767px)">
+													<source srcset="/wp-content/themes/infusemedia/frontend/images/story/tod-awards1.png?t=123456">
+													<img src="/wp-content/themes/infusemedia/frontend/images/story/tod-awards1.png?t=123456" />
 												</picture>
 											</div>
 											<div class="story-tod__aw-layer story-tod__aw-layer--13">
 												<picture>
-													<source srcset="/wp-content/themes/infusemedia/frontend/images/story/tod-awards3.png?t=12345" media="(max-width:767px)">
-													<source srcset="/wp-content/themes/infusemedia/frontend/images/story/tod-awards1.png?t=12345">
-													<img src="/wp-content/themes/infusemedia/frontend/images/story/tod-awards1.png?t=12345" />
+													<source srcset="/wp-content/themes/infusemedia/frontend/images/story/tod-awards3.png?t=123456" media="(max-width:767px)">
+													<source srcset="/wp-content/themes/infusemedia/frontend/images/story/tod-awards1.png?t=123456">
+													<img src="/wp-content/themes/infusemedia/frontend/images/story/tod-awards1.png?t=123456" />
 												</picture>
 											</div>
 											<div class="story-tod__aw-layer story-tod__aw-layer--14">
 												<picture>
-													<source srcset="/wp-content/themes/infusemedia/frontend/images/story/tod-awards3.png?t=12345" media="(max-width:767px)">
-													<source srcset="/wp-content/themes/infusemedia/frontend/images/story/tod-awards1.png?t=12345">
-													<img src="/wp-content/themes/infusemedia/frontend/images/story/tod-awards1.png?t=12345" />
+													<source srcset="/wp-content/themes/infusemedia/frontend/images/story/tod-awards3.png?t=123456" media="(max-width:767px)">
+													<source srcset="/wp-content/themes/infusemedia/frontend/images/story/tod-awards1.png?t=123456">
+													<img src="/wp-content/themes/infusemedia/frontend/images/story/tod-awards1.png?t=123456" />
 												</picture>
 											</div>
 											<div class="story-tod__aw-layer story-tod__aw-layer--15">
 												<picture>
-													<source srcset="/wp-content/themes/infusemedia/frontend/images/story/tod-awards3.png?t=12345" media="(max-width:767px)">
-													<source srcset="/wp-content/themes/infusemedia/frontend/images/story/tod-awards1.png?t=12345">
-													<img src="/wp-content/themes/infusemedia/frontend/images/story/tod-awards1.png?t=12345" />
+													<source srcset="/wp-content/themes/infusemedia/frontend/images/story/tod-awards3.png?t=123456" media="(max-width:767px)">
+													<source srcset="/wp-content/themes/infusemedia/frontend/images/story/tod-awards1.png?t=123456">
+													<img src="/wp-content/themes/infusemedia/frontend/images/story/tod-awards1.png?t=123456" />
 												</picture>
 											</div>
 											<div class="story-tod__aw-layer story-tod__aw-layer--16">
 												<picture>
-													<source srcset="/wp-content/themes/infusemedia/frontend/images/story/tod-awards3.png?t=12345" media="(max-width:767px)">
-													<source srcset="/wp-content/themes/infusemedia/frontend/images/story/tod-awards1.png?t=12345">
-													<img src="/wp-content/themes/infusemedia/frontend/images/story/tod-awards1.png?t=12345" />
+													<source srcset="/wp-content/themes/infusemedia/frontend/images/story/tod-awards3.png?t=123456" media="(max-width:767px)">
+													<source srcset="/wp-content/themes/infusemedia/frontend/images/story/tod-awards1.png?t=123456">
+													<img src="/wp-content/themes/infusemedia/frontend/images/story/tod-awards1.png?t=123456" />
 												</picture>
 											</div>
 											<div class="story-tod__aw-layer story-tod__aw-layer--17">
 												<picture>
-													<source srcset="/wp-content/themes/infusemedia/frontend/images/story/tod-awards3.png?t=12345" media="(max-width:767px)">
-													<source srcset="/wp-content/themes/infusemedia/frontend/images/story/tod-awards1.png?t=12345">
-													<img src="/wp-content/themes/infusemedia/frontend/images/story/tod-awards1.png?t=12345" />
+													<source srcset="/wp-content/themes/infusemedia/frontend/images/story/tod-awards3.png?t=123456" media="(max-width:767px)">
+													<source srcset="/wp-content/themes/infusemedia/frontend/images/story/tod-awards1.png?t=123456">
+													<img src="/wp-content/themes/infusemedia/frontend/images/story/tod-awards1.png?t=123456" />
 												</picture>
 											</div>
 										</div>

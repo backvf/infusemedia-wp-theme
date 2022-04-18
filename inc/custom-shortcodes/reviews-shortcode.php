@@ -547,7 +547,7 @@ input[type=checkbox]:checked{
             $('.homepage-insights-slider #reviews-posts').slick({
                 slidesToShow: 2,
                 slidesToScroll: 1,
-                rows: 1,
+                rows: 0,
                 dots: true,
                 prevArrow: jQuery('.insights-listing .slick-prev-btn-insights'),
                 nextArrow: jQuery('.insights-listing .slick-next-btn-insights'),
@@ -593,7 +593,7 @@ input[type=checkbox]:checked{
         $('.select-item input').on('change', function() {
         
             var filterClass = getFilterValue();
-			//console.log("filterClass is "+filterClass);
+			console.log("filterClass is "+filterClass);
             
             $('#reviews-posts').slick('slickUnfilter');
 

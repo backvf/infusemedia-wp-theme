@@ -85,6 +85,7 @@ if ( ! function_exists( 'understrap_scripts' ) ) {
 
         wp_enqueue_script('newjs', get_template_directory_uri() . '/frontend/js/new.js', array(), $theme_version);
         wp_enqueue_style('search', get_template_directory_uri() . '/frontend/css/search.css', array(), $theme_version);
+        wp_enqueue_style('search-generated', get_template_directory_uri() . '/frontend/css/search-generated.css', array(), $theme_version);
         wp_enqueue_script('search', get_template_directory_uri() . '/js/search.js', array(), $theme_version, true);
 
     }

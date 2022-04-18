@@ -37,7 +37,7 @@ $css_class = apply_filters(
     <div class="flip-card">
     <div class="flip-card-inner">
         <div class="flip-card-front">
-            <div>
+            <div class="leader-img">
                 <img class="image" src="<?php echo $imageUrl[0]; ?>" alt="<?php echo $imageAlt; ?>" width="457" height="365"/>
             </div>
             <h2 class="name"><?php echo $name; ?></h2>
